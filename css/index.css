@@ -1,3 +1,7 @@
+body {
+  min-width: 320px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -109,7 +113,7 @@ main {
 }
 
 .article-section > p {
-  margin-top: 7px;
+  margin-top: 10px;
 }
 
 .conversion-button {
@@ -132,4 +136,45 @@ main {
   font-size: 11px;
   text-align: center;
   color: #888;
+}
+
+@media screen and (max-width: 600px) {
+
+  .header-logo {
+    padding: 5px 0;
+    width: 20px;
+  }
+
+  .header-logo img {
+    width: 20px;
+  }
+
+  main {
+    padding: 20px 0;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 20px 15px;
+  }
+
+  .blog-title {
+    margin-top: 10px;
+  }
+
+  .blog-title-hr {
+    display: none;
+  }
+
+  .auther {
+    margin-top: 15px;
+  }
+
+  .article-section {
+    margin-top: 20px;
+  }
+
+  .conversion-button {
+    margin-top: 20px;
+  }
 }
